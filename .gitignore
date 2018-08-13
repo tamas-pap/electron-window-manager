@@ -1,0 +1,8 @@
+# Modules
+node_modules
+
+# Index
+index.js
+
+# Misc
+.history
