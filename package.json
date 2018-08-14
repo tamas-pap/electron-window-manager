@@ -1,6 +1,6 @@
 {
   "name": "@electron-helpers/window-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Easily manage electron windows.",
   "main": "index.js",
   "devDependencies": {
@@ -13,6 +13,7 @@
     "eslint-plugin-import": "^2.13.0"
   },
   "dependencies": {
+    "@electron-helpers/window-positioner": "^1.0.0",
     "is-url": "^1.2.4"
   },
   "peerDependencies": {
