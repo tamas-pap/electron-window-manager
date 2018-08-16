@@ -56,7 +56,7 @@ Creates a new `BrowserWindow`.
 * `name` - `String` - the name of the window
 * `url` - `String` - the url to open in the window
 * `position` - `Object` - the position of the window. e.g. `{ x: 'left', y: 'center', xOffset: 10, yOffset: -10}` will position the window to 10 pixel from the left (horizontally) and -10 pixels from the center of the screen (vertically)
-* `showGracefully` - `Boolean` - whether to show the windown only [when ready](https://github.com/electron/electron/blob/master/docs/api/browser-window.md#showing-window-gracefully).
+* `showGracefully` - `Boolean` defaults to `false` - whether to show the windown only [when ready](https://github.com/electron/electron/blob/master/docs/api/browser-window.md#showing-window-gracefully).
 
 ### `getWindow(name)`
 
